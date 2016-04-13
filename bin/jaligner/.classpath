@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry excluding="src/java/" kind="src" path="">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Program Files (x86)/Java/jre6/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/ATV-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/commons-math-1.2-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/epsgraphics-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/igv-client-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/JConnector-5.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/jung-algorithms-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/jung-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/jung-graph-impl-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/picard-sam-1.03.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mguttman/workspace/lincRNATools/lib/jgraphx.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
