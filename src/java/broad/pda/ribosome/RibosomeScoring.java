@@ -27,9 +27,9 @@ public class RibosomeScoring {
 			if(component.hasCDS()){component.setCDSScore(model.scoreGene(component.getCDS(), tree));}
 			if(component.get3UTR()!=null){component.setUTR3Score(model.scoreGene(component.get3UTR(), tree));}
 			if(component.get5UTR()!=null){component.setUTR5Score(model.scoreGene(component.get5UTR(),tree));}
-			if(component.hasIntron()){component.setIntronScore(model.scoreGene(component.getIntron(), tree));}
+			//if(component.hasIntron()){component.setIntronScore(model.scoreGene(component.getIntron(), tree));}
 			return component;
-		}
+		} 
 		return null;
 	}
 	
@@ -69,7 +69,7 @@ public class RibosomeScoring {
 			if(feature.hasCDS()){feature.setCDSRNASeqScore(model.scoreGene(feature.getCDS(), tree));}
 			if(feature.get3UTR()!=null){feature.setUTR3RNASeqScore(model.scoreGene(feature.get3UTR(), tree));}
 			if(feature.get5UTR()!=null){feature.setUTR5RNASeqScore(model.scoreGene(feature.get5UTR(),tree));}
-			if(feature.hasIntron()){feature.setIntronRNASeqScore(model.scoreGene(feature.getIntron(), tree));}
+			//if(feature.hasIntron()){feature.setIntronRNASeqScore(model.scoreGene(feature.getIntron(), tree));}
 		}	
 	}
 	

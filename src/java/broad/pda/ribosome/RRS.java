@@ -241,8 +241,6 @@ public class RRS {
 		boolean append = false;
 		for(String chromosome : chrsToUse) {
 
-			//try {   // Just to deal with bizarre issue from user on 4/7/16
-				// Get a RibosomeProfilingAnalysis object
 				RRS rpa = RRS.NewInstance(ribosomeBamFile, expressionBamFile, sizeFile, geneFile, chromosome);
 			
 				// Write RRS scores
@@ -254,9 +252,6 @@ public class RRS {
 				rpa.writeMaxRRS(maxRpkmRatioFilePrefix, append, chromosome, normalizeByExpression, fullyContainedReadsInCds);
 						
 				append = true;
-//			} catch(NullPointerException e) {
-//				System.err.println("WARNING: CAUGHT EXCEPTION FOR CHROMOSOME " + chromosome + ". SKIPPING.");
-//			}
 		}
 		
 		
